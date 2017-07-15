@@ -9,7 +9,7 @@ const AppNavigator = StackNavigator({
     Home : { screen: HomeScreen },
     Calculator: { screen : CalculatorScreen },
 },{
-    initialRouteName: 'Home',
+    initialRouteName: 'Calculator',
     mode: 'modal'
 }
 )
