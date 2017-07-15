@@ -1,16 +1,19 @@
 import { StyleSheet } from 'react-native';
+import COLORS from '../../../constants/colorConstants';
 
 const styles = StyleSheet.create({
    container: {
-    flex: 1
+    flex: 1,
+    borderTopColor:COLORS.white,
+    borderTopWidth:1
   },
   headerTitle:{
-    color:'#FFF',
+    color:COLORS.white,
     fontWeight:'700',
     fontSize:18,
   },
   headerStyle:{
-    backgroundColor: '#43C6AC',
+    backgroundColor:COLORS.backgroundLight,
   },
 })
 
